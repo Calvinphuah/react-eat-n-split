@@ -106,6 +106,7 @@ function FormAddFriend({ onAddFriend }) {
 
     // add guard clause
     if (!name || !image) return;
+    // add
 
     const id = crypto.randomUUID();
 
